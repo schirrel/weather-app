@@ -1,0 +1,45 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "test": "vitest run"
+    },
+    "dependencies": {
+        "@nuxt/fonts": "^0.11.0",
+        "@nuxt/icon": "^1.11.0",
+        "@nuxt/scripts": "^0.11.2",
+        "@nuxt/ui": "^3.0.1",
+        "@unhead/vue": "^2.0.0",
+        "nuxt": "^3.16.1",
+        "qs": "^6.14.0",
+        "typescript": "^5.8.2",
+        "vue": "^3.5.13",
+        "vue-router": "^4.5.0"
+    },
+    "devDependencies": {
+        "@iconify-json/bi": "^1.2.2",
+        "@nuxt/eslint": "^1.2.0",
+        "@nuxt/test-utils": "^3.17.2",
+        "@vitejs/plugin-vue": "^5.2.3",
+        "@vue/test-utils": "^2.4.6",
+        "@vueuse/core": "^13.0.0",
+        "@vueuse/nuxt": "^13.0.0",
+        "eslint": "^9.23.0",
+        "happy-dom": "^17.4.4",
+        "playwright-core": "^1.51.1",
+        "sass": "^1.86.0",
+        "unplugin-auto-import": "^19.1.1",
+        "unplugin-vue-components": "^28.4.1",
+        "vite-plugin-eslint2": "^5.0.3",
+        "vitest": "^3.0.9"
+    },
+    "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}

@@ -1,0 +1,48 @@
+import type { CityModel } from '../models/city';
+
+export const citiesList: Array<CityModel> = [{
+    id: 1,
+    label: 'Joinvile - SC - Brazil',
+    city: 'Joinvile',
+    state: 'SC',
+    country: 'Brazil',
+    countryShort: 'BR',
+    lat: '-26.30444000',
+    long: '-48.84556000',
+}, {
+    id: 2,
+    label: 'San Francisco - CA - USA',
+    city: 'San Francisco',
+    state: 'CA',
+    country: 'USA',
+    countryShort: 'USA',
+    lat: '37.77493000',
+    long: '-122.41942000',
+}, {
+    id: 3,
+    label: 'Urubici - SC - Brazil',
+    city: 'Urubici',
+    state: 'SC',
+    country: 'Brazil',
+    countryShort: 'BR',
+    lat: '-28.0157',
+    long: '-49.5925',
+}, {
+    id: 4,
+    label: 'Dublin  - Ireland',
+    city: 'Dublin',
+    state: '',
+    country: 'Ireland',
+    countryShort: 'IE',
+    lat: '53.350140',
+    long: '-6.266155',
+}, {
+    id: 5,
+    label: 'Helsinki  - Finland',
+    city: 'Helsinki',
+    state: '',
+    country: 'Finland',
+    countryShort: 'FI',
+    lat: '60.192059',
+    long: '24.945831',
+}];
